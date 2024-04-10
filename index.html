@@ -64,5 +64,49 @@
       <li>Tomato</li>
       <li>Carrot</li>
     </ol>
+
+    <!-- 8. <form>-stands to collect the user input, <form> element is used to create an HTML form for user input.
+    <form> element is like a container for different types of <input> element like.
+    1.text input
+    2.checkbox
+    3.radio buttons
+    4.submit button -->
+
+    <!-- 1. The <input type="text"> defines a single-line input field for text input. -->
+
+    <p>Fill your Name</p>
+
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" /><br />
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" />
+    </form>
+
+    <!-- 2.The <input type="checkbox"> defines a checkbox,user select ZERO or MORE options of a limited number of choices. -->
+
+    <p>Select Your qualification</p>
+    <form>
+      <input type="checkbox" name="qualification" id="qualification" />
+      <label for="qualification">Matric</label><br />
+      <input type="checkbox" name="qualification" id="qualification" />
+      <label for="qualification">Graduate</label><br />
+      <input type="checkbox" name="qualification" id="qualification" />
+      <label for="qualification">Post-Graduate</label>
+    </form>
+
+    <!-- 3.The <input type="radio"> Radio buttons let a user select ONE of a limited number of choices. -->
+
+    <p>Choose your language</p>
+    <form>
+      <input type="radio" name="Hindi" id="Hindi" />
+      <label for="Hindi">Hindi</label><br />
+      <input type="radio" name="English" id="English" />
+      <label for="English">English</label><br />
+      <input type="radio" name="Japanese" id="Japanese" />
+      <label for="HTML">Japanese</label>
+    </form>
+
+    <input type="submit" value="submit" />
   </body>
 </html>
